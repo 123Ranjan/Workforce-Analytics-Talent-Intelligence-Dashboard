@@ -1,0 +1,46 @@
+✅ Modified Columns (Renamed in Phase 5)
+
+| Original Column          | New Column                    |
+| ------------------------ | ----------------------------- |
+| Age                      | `age`                         |
+| Attrition                | `attrition_status`            |
+| BusinessTravel           | `business_travel_frequency`   |
+| DailyRate                | `daily_rate`                  |
+| DistanceFromHome         | `distance_from_home`          |
+| Education                | `education_level`             |
+| EducationField           | `education_field`             |
+| EmployeeNumber           | `employee_id`                 |
+| EnvironmentSatisfaction  | `environment_satisfaction`    |
+| HourlyRate               | `hourly_rate`                 |
+| JobInvolvement           | `job_involvement_level`       |
+| JobLevel                 | `job_level`                   |
+| JobRole                  | `job_role`                    |
+| JobSatisfaction          | `job_satisfaction`            |
+| MaritalStatus            | `marital_status`              |
+| MonthlyIncome            | `monthly_income`              |
+| MonthlyRate              | `monthly_rate`                |
+| NumCompaniesWorked       | `companies_worked_count`      |
+| OverTime                 | `over_time`                   |
+| PercentSalaryHike        | `salary_hike_percent`         |
+| PerformanceRating        | `performance_rating`          |
+| RelationshipSatisfaction | `relationship_satisfaction`   |
+| StockOptionLevel         | `stock_option_level`          |
+| TotalWorkingYears        | `total_working_years`         |
+| TrainingTimesLastYear    | `training_sessions_last_year` |
+| WorkLifeBalance          | `work_life_balance`           |
+| YearsAtCompany           | `years_at_company`            |
+| YearsInCurrentRole       | `years_in_current_role`       |
+| YearsSinceLastPromotion  | `years_since_last_promotion`  |
+| YearsWithCurrManager     | `years_with_current_manager`  |
+
+✅ New Columns Added (Phase 6 – Feature Engineering)
+
+| New Column                   | Created From                             | Business Purpose                                           |
+| ---------------------------- | ---------------------------------------- | ---------------------------------------------------------- |
+| `age_group`                  | `age`                                    | Group employees by career stage (Young, Mid, Senior, etc.) |
+| `salary_band`                | `monthly_income`                         | Classify employees into Low, Medium, and High income bands |
+| `experience_level`           | `total_working_years`                    | Categorize employees by experience level                   |
+| `promotion_due`              | `years_since_last_promotion`             | Identify employees who may be due for promotion            |
+| `income_per_year_experience` | `monthly_income` + `total_working_years` | Measure salary relative to experience                      |
+| `employee_tenure_category`   | `years_at_company`                       | Group employees by organizational tenure                   |
+| `attrition_risk_score`       | Multiple HR factors                      | Estimate employee attrition risk using business rules      |
