@@ -129,8 +129,7 @@ pip --version
 
 # Check PostgreSQL version
 psql --version
-
-## 🚀 Installation
+```
 ### Step 1: Clone the Repository
 ```git clone https://github.com/yourusername/workforce-analytics-platform.git
 cd workforce-analytics-platform
@@ -160,8 +159,8 @@ CREATE DATABASE workforce_db;
 3.notebooks/03_EDA_Analytics.ipynb
 ```
 
-#  ⚙️ Configuration
-## Environment Variables
+##  ⚙️ Configuration
+### Environment Variables
 Create a .env file in the project root:
 ```
 # Database Configuration
@@ -175,5 +174,107 @@ DB_PASSWORD=your_password
 APP_ENV=production
 DEBUG=False```
 Edit application.properties with the following content:
+
+```
+### Database Configuration
+# database/config.py
+```
+import os
+from dotenv import load_dotenv
+
+load_dotenv()
+
+DB_CONFIG = {
+    'host': os.getenv('DB_HOST', 'localhost'),
+    'port': os.getenv('DB_PORT', '5432'),
+    'database': os.getenv('DB_NAME', 'workforce_db'),
+    'user': os.getenv('DB_USER', 'postgres'),
+    'password': os.getenv('DB_PASSWORD', '')
+}
+```
+
+## 🏃 Running the Application
+### Start the Application
+
+``` # Navigate to project root
+cd workforce-analytics-platform
+
+# Activate virtual environment
+.venv\Scripts\activate  # Windows
+source .venv/bin/activate  # macOS/Linux
+
+# Run the app
+streamlit run app.py
+```
+### Access the Application
+```Local URL: http://localhost:8501
+
+Network URL: http://10.75.212.116:8501
+```
+### Quick Commands
+```
+# Run with custom port
+streamlit run app.py --server.port 8502
+
+# Run with debug mode
+streamlit run app.py --logger.level debug
+```
+
+## 📁 Project Structure
+```
+AI_WORKFORCE_INTELLIGENCE/
+│
+├── 📁 dashboard/                    # 🎨 Dashboard Components
+│   ├── 📁 components/
+│   │   ├── cards.py                 # 🃏 KPI Card Components
+│   │   ├── charts.py                # 📊 Chart Functions
+│   │   └── tables.py                # 📋 Table Functions
+│   └── 📁 styles/
+│       └── theme.py                 # 🎨 Dark/Light Theme
+│
+├── 📁 database/                     # 🗄️ Database Layer
+│   ├── config.py                    # ⚙️ Database Configuration
+│   ├── connection.py                # 🔗 PostgreSQL Connection
+│   └── queries.py                   # 📝 SQL Queries
+│
+├── 📁 services/                     # 🛠️ Business Services
+│   ├── ml_service.py                # 🤖 Machine Learning Service
+│   ├── report_service.py            # 📋 Report Generation
+│   └── pdf_service.py               # 📄 PDF with Charts
+│
+├── 📁 pages/                        # 📄 Streamlit Pages
+│   ├── 1_Home.py                    # 🏠 Executive Dashboard
+│   ├── 2_ML_Analytics.py            # 🧠 Predictive Analytics
+│   ├── 3_Performance_Analytics.py   # 📈 Performance Analytics
+│   └── 4_Export.py                  # 📋 Report Center
+│
+├── 📁 notebooks/                    # 📓 Jupyter Notebooks
+│   ├── 02_Feature_Engineering.ipynb # 🔧 Feature Creation
+│   ├── 03_EDA_Analytics.ipynb       # 📊 Exploratory Analysis
+│   └── SQLLoad.ipynb                # 📤 PostgreSQL Loading
+│
+├── 📁 sql/                          # 📝 SQL Scripts
+│   └── SQL_Business_Analysis.sql    # 📊 Business Queries
+│
+├── 📁 data/                         # 📂 Data Storage
+│   ├── 📁 raw/                      # Raw Data
+│   │   └── WA_Fn-UseC_-HR-Employee-Attrition.csv
+│   ├── 📁 cleaned/                  # Cleaned Data
+│   │   └── employee_cleaned.csv
+│   └── 📁 featured/                 # Feature Engineered Data
+│       └── employee_featured.csv
+│
+├── 📁 models/                       # 🧠 Saved ML Models
+│   ├── attrition_model.pkl          # 🤖 Attrition Model
+│   ├── salary_model.pkl             # 💰 Salary Model
+│   └── clusters.pkl                 # 👥 Clustering Model
+│
+├── 📁 reports/                      # 📊 Generated Reports
+│
+├── app.py                           # 🚀 Main Entry Point
+├── requirements.txt                 # 📦 Python Dependencies
+├── .env                             # 🔒 Environment Variables
+├── .gitignore                       # 🙈 Git Ignore Rules
+└── README.md                        # 📖 Documentation
 
 ```
