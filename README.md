@@ -278,3 +278,11 @@ AI_WORKFORCE_INTELLIGENCE/
 └── README.md                        # 📖 Documentation
 
 ```
+
+### 📖 Usage Guide
+## 1. Navigate the Dashboard
+#### Page	                  Purpose
+📊 Executive Dashboard	      View KPI cards and charts
+🧠 Predictive Analytics	      Run ML models and predictions
+📈 Performance Analytics	  Analyze performance data
+📋 Report Center	          Export reports
