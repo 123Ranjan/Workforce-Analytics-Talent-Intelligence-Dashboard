@@ -118,6 +118,7 @@ Before you begin, ensure you have the following installed:
 | **Git** | Latest | [Download](https://git-scm.com/) |
 | **pip** | Latest | Included with Python |
 
+###  🚀 Installation
 ### Verify Installations
 ```bash
 # Check Python version
