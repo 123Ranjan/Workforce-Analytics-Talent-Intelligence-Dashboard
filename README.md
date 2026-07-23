@@ -25,9 +25,6 @@ A comprehensive **HR Analytics Platform** for workforce intelligence, predictive
 - [Project Structure](#-project-structure)
 - [Usage Guide](#-usage-guide)
 - [Screenshots](#-screenshots)
-- [Contributing](#-contributing)
-- [Contact](#-contact)
-
 ---
 
 ## ✨ Features
