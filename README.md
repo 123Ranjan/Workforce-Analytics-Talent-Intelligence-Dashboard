@@ -129,5 +129,50 @@ pip --version
 # Check PostgreSQL version
 psql --version
 
-# Check Git version
-git --version
+## 🚀 Installation
+### Step 1: Clone the Repository
+```git clone https://github.com/yourusername/workforce-analytics-platform.git
+cd workforce-analytics-platform
+```
+### Step 2: Create Virtual Environment
+``` # Windows
+python -m venv .venv
+.venv\Scripts\activate
+
+# macOS / Linux
+python3 -m venv .venv
+source .venv/bin/activate
+```
+### Step 3: Install Dependencies
+``` pip install -r requirements.txt
+```
+### Step 4: Set Up Database
+``` # Create PostgreSQL database
+psql -U postgres
+CREATE DATABASE workforce_db;
+\q
+```
+### Step 5: Load Data
+``` Run the Jupyter notebooks in order:
+1.notebooks/02_Feature_Engineering.ipynb
+2.notebooks/SQLLoad.ipynb
+3.notebooks/03_EDA_Analytics.ipynb
+```
+
+## ⚙️ Configuration
+### Environment Variables
+Create a .env file in the project root:
+```
+# Database Configuration
+DB_HOST=localhost
+DB_PORT=5432
+DB_NAME=workforce_db
+DB_USER=postgres
+DB_PASSWORD=your_password
+
+# App Configuration
+APP_ENV=production
+DEBUG=False```
+Edit application.properties with the following content:
+
+```
