@@ -160,8 +160,8 @@ CREATE DATABASE workforce_db;
 3.notebooks/03_EDA_Analytics.ipynb
 ```
 
-## ⚙️ Configuration
-### Environment Variables
+###  ⚙️ Configuration
+## Environment Variables
 Create a .env file in the project root:
 ```
 # Database Configuration
