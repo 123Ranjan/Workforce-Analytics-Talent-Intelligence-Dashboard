@@ -635,10 +635,6 @@ AI_WORKFORCE_INTELLIGENCE/
 - Download template CSV
 - Upload employee data
 - Click **Predict All Employees**
-
----
-Here is the cleaned-up and properly formatted **Screenshots** section for your `README.md`. I've organized the images into a clean grid layout with clear section headers and descriptions.
-
 ---
 
 ## 🖼️ Screenshots
