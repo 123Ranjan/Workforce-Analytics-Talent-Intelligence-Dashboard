@@ -592,7 +592,6 @@ AI_WORKFORCE_INTELLIGENCE/
 ---
 
 ## 📖 Usage Guide
-
 ### 1. Navigate the Dashboard
 
 | Page | Purpose |
@@ -603,38 +602,39 @@ AI_WORKFORCE_INTELLIGENCE/
 | 📋 Report Center | Export reports |
 
 ### 2. Apply Filters
-
+```
 - Select **Department** → **Job Role** → **Education** → **Gender** → **Attrition**
 - Filters cascade automatically
 - Use **Employee Search** for specific employees
 - Adjust **Salary** and **Age** sliders
-
+```
 ### 3. Export Reports
-
+```
 - Choose format (CSV, Excel, PDF)
 - Click **Export Data**
 - Download automatically
-
+```
 ### 4. Generate Action Plans
-
+```
 - Go to **Performance Analytics**
 - Select department and number of employees
 - Click **Generate Action Plan**
 - Download individual plans
-
+```
 ### 5. Predict Attrition
-
+```
 - Go to **Predictive Analytics** → **Predict Attrition**
 - Enter employee details
 - Click **Predict Attrition Risk**
 - View risk level and recommendations
-
+```
 ### 6. Batch Predictions
-
+```
 - Go to **Predictive Analytics** → **Batch Predictions**
 - Download template CSV
 - Upload employee data
 - Click **Predict All Employees**
+```
 ---
 
 ## 🖼️ Screenshots
