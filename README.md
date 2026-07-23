@@ -176,8 +176,8 @@ DEBUG=False```
 Edit application.properties with the following content:
 
 ```
-### Database Configuration
-# database/config.py
+## Database Configuration
+### database/config.py
 ```
 import os
 from dotenv import load_dotenv
