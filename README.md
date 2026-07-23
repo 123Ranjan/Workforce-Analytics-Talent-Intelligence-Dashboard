@@ -640,5 +640,66 @@ AI_WORKFORCE_INTELLIGENCE/
 - Click **Predict All Employees**
 
 ---
+Here is the cleaned-up and properly formatted **Screenshots** section for your `README.md`. I've organized the images into a clean grid layout with clear section headers and descriptions.
+
+---
+
+## 🖼️ Screenshots
+
+<div align="center">
+
+### 📊 Executive Dashboard
+
+| Dashboard Overview | Key Metrics View |
+|:---:|:---:|
+| <img width="400" alt="Dashboard Overview" src="https://github.com/user-attachments/assets/9ae59860-4632-43a1-b50b-2b2f6f9e05d4" /> | <img width="400" alt="Key Metrics View" src="https://github.com/user-attachments/assets/08b3ad5f-fa47-4800-8551-7162ad0886c1" /> |
+
+| Filters & Charts |
+|:---:|
+| <img width="800" alt="Filters and Charts" src="https://github.com/user-attachments/assets/a7b6e04b-0b62-4f67-ae17-9b1c38b9a99d" /> |
+
+*Interactive dashboard showing KPI cards, workforce distribution, cascading filters, and key metrics*
+
+---
+
+### 🧠 Predictive Analytics
+
+| Attrition Insights | Model Performance |
+|:---:|:---:|
+| <img width="400" alt="Attrition Insights" src="https://github.com/user-attachments/assets/2dc7a8ea-41f9-4cbc-bad1-ae5523a29019" /> | <img width="400" alt="Model Performance" src="https://github.com/user-attachments/assets/9cccd987-bd77-45f7-b066-08709fa748bf" /> |
+
+*Attrition analysis dashboard and model performance metrics (Accuracy, Precision, Recall, F1-Score)*
+
+---
+
+### 📈 Performance Analytics
+
+| Performance Overview | Root Cause Analysis |
+|:---:|:---:|
+| <img width="400" alt="Performance Overview" src="https://github.com/user-attachments/assets/13e21739-2aea-4054-8ebd-d6414fd826bf" /> | <img width="400" alt="Root Cause Analysis" src="https://github.com/user-attachments/assets/413104a3-38ad-4a82-9dd5-256221bb3e41" /> |
+
+| Risk Assessment | Action Plan Generator |
+|:---:|:---:|
+| <img width="400" alt="Risk Assessment" src="https://github.com/user-attachments/assets/2f125c1d-0e31-4ccb-add2-9ad69bdc6f69" /> | <img width="400" alt="Action Plan Generator" src="https://github.com/user-attachments/assets/d5883250-4feb-4ca7-9778-20115ccfed89" /> |
+
+*Performance overview, root cause analysis, risk assessment, and action plan generator*
+
+---
+
+### 📋 Report Center
+
+| Report Preview | Export Options |
+|:---:|:---:|
+| <img width="400" alt="Report Preview"  src="https://github.com/user-attachments/assets/6006246a-337b-402f-a8bd-47cc6dd3e223" /> | <img width="400" alt="Export Options" src="https://github.com/user-attachments/assets/75acd5b1-ed22-4382-81a0-29fc14dbe27f" /> |
+
+*Export reports in CSV, Excel, and PDF formats with visualizations*
+*Export reports in CSV, Excel, and PDF formats with visualizations*
+
+---
+
+</div>
+
+ Made with ❤️ by Ranjan  
+⭐ If this project will help you, give a star to this repo
 
 
